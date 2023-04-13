@@ -58,8 +58,9 @@
         android:id="@+id/quarters"
         android:layout_width="138dp"
         android:layout_height="125dp"
-        android:layout_marginStart="60dp"
         android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toStartOf="@+id/one_dollars"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fives_cents"
         app:srcCompat="@drawable/quarter" />
@@ -70,6 +71,7 @@
         android:layout_height="126dp"
         android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/quarters"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:srcCompat="@drawable/one_dollar" />
