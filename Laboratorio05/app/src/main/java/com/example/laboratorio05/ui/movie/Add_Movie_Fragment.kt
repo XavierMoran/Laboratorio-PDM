@@ -1,4 +1,4 @@
-package com.example.laboratorio05
+package com.example.laboratorio05.ui.movie
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,8 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
+import com.example.laboratorio05.R
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
